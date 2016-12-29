@@ -1,0 +1,582 @@
+/*csss*/
+/*========================================================================================================================
+
+			============================	     	M  E  D  I  A      Q  U  E  R  I  E  S    	==================================
+
+==========================================================================================================================*/
+
+
+@media(max-width:1400px) {
+	.about_col_3{
+		 padding-left: .625rem;
+   		 padding-right: .625rem;
+	}
+}
+
+
+@media(max-width:1370px) {
+	nav ul li a{
+		font-size: 1.0rem;
+	}
+}
+
+
+
+@media(max-width:1280px) {
+	nav ul li a{
+		font-size: 1.0rem;
+	}
+}
+
+
+@media(max-width:1200px) {
+
+/*.top-bar-right {
+	width: 72%;
+    float: right;
+    margin-top: 46px;
+}*/
+	.main_wraper{
+		margin-top: 126px;
+	}
+
+	.logo_img{
+		display: block;
+	    max-width: 180px;
+	    text-align: left;
+	    float: left;
+	}
+
+	.top-bar-right{
+		margin-top:60px;
+	}
+
+	nav ul li a{
+		padding: 0 10px;
+		font-size: 1.0rem;
+	}
+
+	.top-bar-title{
+		margin-right: 0;
+	}
+
+
+
+
+}
+
+@media(max-width:1124px) {
+	.wrap_ul{
+		width:92%;
+	}
+	nav ul li{
+		padding:0;
+	}
+/*.top-bar-right {
+	width: 72%;
+    float: right;
+    margin-top: 46px;
+}
+*/
+
+
+/*===================================================================================
+     =================      	   T  E  A  M    		  ===================
+=====================================================================================*/
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media(max-width: 991px) {
+	.wrap_ul {
+	    width: 100%;
+	}
+/*===================================================================================
+     =================         P R O P E R T I E S     ===================
+=====================================================================================*/
+	.wrap_search{
+		display: none;
+	}
+}
+
+@media(max-width: 840px) {
+	.top-bar-right{
+		margin-top:45px;
+	}
+
+	.logo_img{
+		max-width: 150px;
+	}
+
+	nav ul li a{
+		 padding: 0 10px;
+  		 font-size: 0.9rem;
+	}
+
+}
+
+
+
+@media(max-width: 767px) {
+	nav ul li{
+		border-bottom: 1px solid #ccc;
+		padding:0;
+	}
+	.about_col_9 {
+	    min-height: 0 !important;
+	    margin-bottom: 20px;
+	}
+	.breadcrumbs_div .breadcrumbs p{
+		line-height: normal;
+	}
+	.breadcrumbs_div .breadcrumbs{
+		margin-bottom: 20px;
+	}
+	html{
+	    margin: 0 !important;
+	}
+	nav ul li a{
+		padding:0 5px;
+	}
+	.text_rep{
+		width: 100%;
+	    min-height: 50px;
+	    bottom: 0;
+	    top: auto;
+	   	margin: auto;
+	    left: 0;
+	    right: 0;
+	    -webkit-transform: translateY(0%);
+           -moz-transform: translateY(0%);
+            -ms-transform: translateY(0%);
+             -o-transform: translateY(0%);
+                transform: translateY(0%);
+	}
+
+/*===================================================================================
+     ======================      H O M E P A G E  		  ====================
+=====================================================================================*/
+	.carousel-arr{
+		display: none !important;
+	}
+
+	.home_row_banner,
+	.page_row_banner,
+	.bg_home,
+	.bg_page{
+		min-height: 330px;
+	}
+
+	.text_rep p{
+		font-size: 0.98rem;
+    	line-height: 1.2rem;
+    	padding: 10px 0;
+	}
+
+	.home_services h2{
+		font-size: 1.6rem;
+    	margin: 25px 0;
+	}
+
+	.cat_sec .cat_col{
+		min-height: 300px;
+		margin-bottom: 20px;
+	}
+
+/*	.abs_title{
+		height: 50px;
+	}*/
+
+/*	.abs_title .inner_title{
+		font-size: 1.3rem;
+	}*/
+
+	.home_video_sec{
+		margin-top: 20px;
+    	padding-top: 30px;
+	}
+
+	.home_video_sec h3{
+		text-align: center;
+		font-size: 2.0rem;
+    	margin-bottom: 10px;
+	}
+
+	.home_video_sec .home_content p{
+		line-height: 1.5rem;
+	}
+
+	.more_about{
+		margin-bottom:20px;
+	}
+
+	.home_video_sec iframe{
+		height: 320px;
+	}
+
+
+/*===================================================================================
+     =================      	  A B O U T    		  ===================
+=====================================================================================*/
+
+	.about_sec{
+		margin-top: 0;
+	}
+
+	.about_sec h1{
+		text-align: center;
+	}
+
+	.about_nav ul li{
+	    float: none;
+	    line-height: 1.5rem;
+	    border-left: 0px solid #dddddc;
+	    width: 100%;
+	    border-bottom: 1px solid #ddd;
+	}
+
+	.about_content h1{
+		text-align: center;
+	}
+
+	.about_wraper h2{
+		margin-bottom: 10px;
+		text-align: center;
+	}
+
+	.about_sec .form_div h3{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+
+	.all_service{
+		margin-top: 0;
+	}
+
+	.all_service h1{
+		text-align: center;
+	}
+
+
+/*===================================================================================
+     =================            C O N T A C T           ===================
+=====================================================================================*/
+
+	.contact_sec{
+		margin-top: 0;
+	}
+
+	.contact_sec h1{
+		text-align: center;
+		margin-bottom-;
+	}
+
+	.contact_sec .contact_row .info_box{
+		margin-bottom: 30px;
+	}
+
+	.contact_row .contact_form{
+		padding: 10px;
+	}
+
+	.contact_form .contact_form_title p{
+		font-size: 1.0rem;
+    	line-height: 1.4rem;
+    	text-align: center !important;
+	}
+
+	.contact_form input[type="text"],
+	.contact_form input[type="email"],
+	.contact_form textarea{
+	    height: 40px;
+	    margin-bottom: 10px;
+	    font-size: 0.9rem;
+	}
+
+	.contact_form textarea{
+		height: 70px;
+	}
+
+	.contact_form input[type="submit"]{
+		padding: 0px 30px;
+		height: 40px;
+		font-size: 1.2rem;
+	}
+
+
+/*===================================================================================
+     =================             I N F O          ===================
+=====================================================================================*/
+	.info_posts_row .info_col{
+		min-height: 310px;
+		margin-bottom: 30px;
+	}
+
+	.info_sec h1{
+		text-align: center;
+	}
+
+	.info_box .info_box_title{
+		height: 50px;
+		margin-bottom: 0px;
+	}
+
+	.info_box .info_box_title .inner_title{
+		font-size: 1.4rem;
+	}
+
+	.box_detailes .box_img{
+		width: 100%;
+	    float: none;
+	    margin-bottom: 10px;
+	}
+
+	.box_detailes .box_excerpt{
+		width: 100%;
+	    float: none;
+	}
+
+
+/*===================================================================================
+ ===============       S I N G L E    S E R V I C E          ================
+=====================================================================================*/
+
+	.single_service_sec{
+		text-align: center;
+	}
+
+	.single_service_sec h1{
+		font-size: 1.8rem;
+	}
+
+	.single_form .input_text {
+	    width: 100%;
+	    margin-left: 0;
+	    margin-bottom: 10px;
+	    float: none;
+	}
+
+	.single_form .input_submit {
+	    width: 100%;
+	    float: none;
+	}
+
+	.back_to_services {
+	    text-align: center;
+	    padding: 10px;
+	    padding-bottom: 5px;
+	}
+
+	.wrap_service_slider{
+		padding: 0;
+		margin-top: 30px;
+	}
+
+	.service_slider .slider_inner{
+		min-height: 260px;
+	}
+
+/*===================================================================================
+ 				==============      F O O T E R     ================
+=====================================================================================*/
+	.footer_menu_sec{
+		padding-top: 15px;
+	}
+
+	.footer_col{
+		text-align: center;
+		padding-bottom: 10px;
+	}
+
+	.footer_menu_sec ul{
+		margin: 0;
+	    border-bottom: 1px solid #0070b4;
+	    padding: 0;
+	    padding-bottom: 10px;
+	}
+
+	.footer_menu_sec ul li a{
+		display: block;
+	}
+
+	.footer_menu_sec p{
+		padding-bottom: 10px;
+		text-align: center;
+	}
+
+	.footer_copy,
+	.footer_build{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+}
+
+@media(max-width: 640px) {
+	nav li.current_page_parent  .sub-menu,
+	nav li.current-menu-item .sub-menu {
+	    display: block;
+	}
+	.top-bar .logo_div {
+	    width: 100%;
+	}
+	.main_wraper{
+		margin-top: 94px;
+	}
+	.page_banner_text p{
+		font-size: 1.2rem;
+	    color: #6390c5;
+	    line-height: 1.3rem;
+	    text-align: center !important;
+	}
+
+	.breadcrumbs_div .breadcrumbs{
+		margin: 0;
+	    min-height: 47px;
+	    line-height: 25px;
+	    margin-top: 10px;
+	}
+
+	.fixed_con{
+		display: none;
+	}
+
+	nav{
+		padding:0;
+	}
+
+	nav ul li{
+		width: 100%;
+		padding: 0 11px;
+	}
+
+	.top-bar-title{
+		float: left;
+	    margin-right: 0;
+	    width: 100%;
+	    text-align: left;
+	}
+
+	nav ul li:first-child{
+		padding: 0 11px;
+	}
+
+	nav ul li a{
+		padding: 10px 0;
+  		 font-size: 1.0rem;
+
+	}
+
+	nav ul li .sub-menu{
+		display: none;
+	    position: relative;
+	    right: -1px;
+	    top: auto;
+	    width: 100%;
+	    z-index: 999;
+	    padding: 0;
+	    margin: 0;
+	    list-style: none;
+	    background: none;
+	    padding: 0px 5px;
+	    padding-top: 0;
+	    border: 0;
+	    z-index: 9999;
+	}
+
+	nav ul li .sub-menu li{
+		 line-height: 0.5rem;
+	}
+
+	nav ul li .sub-menu li a{
+		color: #777;
+		 font-size: 0.9rem;
+	}
+
+	.top-bar-right{
+	    margin-top: 0;
+	    border-top: 1px solid #c5c5c3;
+	    border-bottom: 1px solid #c5c5c3;
+	    position: absolute;
+	    top: 94px;
+	    width: 100%;
+	    right: 0;
+	    z-index: 9999999;
+	    background-color: #fff;
+	}
+
+	nav ul li.menu-item-has-children:after {
+	   content: none;
+	}
+
+	nav ul li.menu-item-has-children:hover{
+   	 outline: 0;
+	}
+
+	.title_icon{
+		display: inline;
+    	float: left;
+    	margin-top: 18px;
+   		margin-right: 10px;
+   		margin-right: 0;
+	}
+
+	.logo_img{
+		display: block;
+	    max-width: 120px;
+	    text-align: left;
+	    float: right;
+	}
+
+	body.admin-bar{
+		margin-top:0;
+	}
+
+	.title-bar{
+		display: block;
+		background-color: #BB8823;
+	}
+
+	html body.admin-bar .top-bar-right{
+	 top: 94px;
+	}
+
+	.footer_form{
+		margin-top: 20px;
+		padding: 0 2%;
+	}
+
+	.footer_form h3{
+		text-align: center;
+	}
+
+	.search_sec .input_button button{
+        padding: 0;
+    }
+
+
+
+/*	html #wpadminbar {
+		position: absolute;
+		top:-46px
+	}*/
+}
+
+
+
+
+
+@media(max-width:480px) {
+
+}
